@@ -1,0 +1,67 @@
+/* index.css */
+
+/* 设置页面主体的基本样式 */
+@import "tailwindcss";
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置头部区域样式 */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 设置主内容区域样式 */
+main {
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* 设置链接样式 */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 设置底部区域样式 */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.mapboxgl-popup-tip {
+  display: none;
+}
+
+.custom-map-popup {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  max-width: 220px;
+}
+
+.custom-map-popup .mapboxgl-popup-content {
+  padding: 0;
+  border-radius: 8px;
+}
+
+.custom-map-popup .mapboxgl-popup-tip {
+  border-top-color: rgba(255, 255, 255, 0.95);
+}
